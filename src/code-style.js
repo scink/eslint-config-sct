@@ -3,7 +3,7 @@ module.exports = {
 	extends: ['plugin:prettier/recommended', 'prettier'],
 	rules: {
 		'arrow-body-style': ['warn', 'as-needed'],
-		'prettier/prettier': ['warn', {singleQuote: true, bracketSpacing: false}],
+		'prettier/prettier': ['warn', {singleQuote: true, bracketSpacing: false, tabWidth: 4, useTabs: true}],
 		'no-irregular-whitespace': 'off',
 		'no-duplicate-imports': ['error', {includeExports: true}],
 		'no-restricted-globals': ['error', 'name', 'toString', 'pending', 'Promise'],
