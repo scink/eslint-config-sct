@@ -12,6 +12,7 @@ module.exports = {
 				useTabs: true,
 				trailingComma: 'all',
 				arrowParens: 'avoid',
+				printWidth: 120,
 			},
 		],
 		'no-irregular-whitespace': 'off',
