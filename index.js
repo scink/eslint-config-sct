@@ -4,5 +4,6 @@ module.exports = {
 		require.resolve('./src/ts.js'),
 		require.resolve('./src/react.js'),
 		require.resolve('./src/code-style.js'),
+		require.resolve('./src/json.js')
 	],
 };
