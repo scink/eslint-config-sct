@@ -15,7 +15,10 @@ module.exports = {
 		// 'react-hooks/rules-of-hooks': 'off',
 		// Verify the list of the dependencies for Hooks like useEffect and similar
 		// https://github.com/facebook/react/blob/1204c789776cb01fbaf3e9f032e7e2ba85a44137/packages/eslint-plugin-react-hooks/src/ExhaustiveDeps.js
-		'react-hooks/exhaustive-deps': ['error', {additionalHooks: '(useSink|useLiveData|useObservable|useSideEffect)'}],
+		'react-hooks/exhaustive-deps': [
+			'error',
+			{additionalHooks: '(useSink|useLiveData|useObservable|useSideEffect)'},
+		],
 		// REACT
 		// we use React.Fragment
 		'react/jsx-fragments': ['warn', 'element'],
@@ -41,6 +44,10 @@ module.exports = {
 		'react/no-unescaped-entities': 'off',
 		// false positive for function createElement
 		'react/no-children-prop': 'off',
+		// react v17 or higher does not need it
+		'react/react-in-jsx-scope': 'off',
+		'react/jsx-uses-react': 'off',
+
 		'no-restricted-imports': [
 			'error',
 			{
