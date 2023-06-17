@@ -51,23 +51,6 @@ module.exports = {
 		'no-restricted-imports': [
 			'error',
 			{
-				paths: [
-					{
-						name: 'react',
-						importNames: [
-							'useState',
-							'useReducer',
-							'useRef',
-							'useMemo',
-							'useCallback',
-							'useContext',
-							'useEffect',
-							'useLayoutEffect',
-							'useImperativeHandle',
-						],
-						message: 'Please use hook from React namespace',
-					},
-				],
 				patterns: [
 					{group: ['@emotion/css', '@emotion/core'], message: 'Use @emotion/react instead'},
 					{group: ['fp-ts/lib*'], message: 'Use fp-ts directly'},
