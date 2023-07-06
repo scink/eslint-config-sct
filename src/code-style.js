@@ -25,5 +25,6 @@ module.exports = {
 		'object-shorthand': 'warn',
 		quotes: ['warn', 'single', {avoidEscape: true}],
 		'prefer-arrow-callback': 'error',
+		'sort-imports': 'error',
 	},
 };
