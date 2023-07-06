@@ -25,6 +25,7 @@ module.exports = {
 		'object-shorthand': 'warn',
 		quotes: ['warn', 'single', {avoidEscape: true}],
 		'prefer-arrow-callback': 'error',
-		'sort-imports': 'error',
+		// automatic imports sort doesn't work
+		// 'sort-imports': 'error',
 	},
 };
